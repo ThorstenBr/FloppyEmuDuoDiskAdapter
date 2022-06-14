@@ -8,8 +8,8 @@ Title "DuoDisk-FloppyEmu Adapter"
 Date "2022-06-05"
 Rev "1.0"
 Comp "Thorsten Brehm"
-Comment1 ""
-Comment2 ""
+Comment1 "CC-BY-SA 4.0"
+Comment2 "FloppyEmu-DuoDisk-Adapter for the Apple II"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -334,7 +334,7 @@ GND
 Text Label 2150 4750 0    50   ~ 0
 GND2
 Text Notes 5100 4300 0    50   ~ 0
-SW1 connects DRIVE1 to A or B\nSW2 connects DRIVE2 to A or B\nSW3 swaps B's DRIVE1/DRIVE2
+SW1 connects DRIVE1 to DUODISK or FLOPPYEMU\nSW2 connects DRIVE2 to DUODISK or FLOPPYEMU\nSW3 swaps FLOPPYEMU's DRIVE1/DRIVE2
 Wire Notes Line
 	5050 1150 5050 4350
 Wire Notes Line
@@ -411,29 +411,27 @@ Text GLabel 2300 4200 2    50   Output ~ 0
 GND
 Wire Wire Line
 	2150 4200 2300 4200
-Text GLabel 6500 4600 0    50   Input ~ 0
+Text GLabel 6000 4700 0    50   Input ~ 0
 GND
 $Comp
 L Connector:TestPoint TP1
 U 1 1 62B6B05E
-P 6800 4600
-F 0 "TP1" V 6754 4788 50  0000 L CNN
-F 1 "GND" V 6845 4788 50  0000 L CNN
-F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 7000 4600 50  0001 C CNN
-F 3 "~" H 7000 4600 50  0001 C CNN
-	1    6800 4600
+P 6300 4700
+F 0 "TP1" V 6254 4888 50  0000 L CNN
+F 1 "GND" V 6345 4888 50  0000 L CNN
+F 2 "Measurement_Points:Measurement_Point_Round-TH_Small" H 6500 4700 50  0001 C CNN
+F 3 "~" H 6500 4700 50  0001 C CNN
+	1    6300 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6800 4600 6500 4600
+	6300 4700 6000 4700
 Wire Notes Line
 	5050 4450 7850 4450
 Text Notes 5100 4550 0    50   ~ 0
 Testpoints
 Wire Wire Line
 	1850 4650 2350 4650
-Wire Notes Line
-	850  1150 4600 1150
 Wire Wire Line
 	1550 2250 2100 2250
 Connection ~ 2100 2250
@@ -518,4 +516,6 @@ Wire Wire Line
 Connection ~ 3550 1850
 Wire Wire Line
 	3400 1950 3400 1700
+Wire Notes Line
+	850  1150 4900 1150
 $EndSCHEMATC

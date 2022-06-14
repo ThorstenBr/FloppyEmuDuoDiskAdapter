@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/brehm/Daten/Hardware/KiCad/DuoDiskAdapter/DuoDiskAdapter/DuoDiskAdapter.sch)
-    (date "Mo 13 Jun 2022 13:17:08 CEST")
+    (source /home/brehm/Daten/Hardware/KiCad/DuoDiskAdapter/KiCad/DuoDiskAdapter.sch)
+    (date "Di 14 Jun 2022 22:47:12 CEST")
     (tool "Eeschema 5.1.8-5.1.8")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -10,8 +10,8 @@
         (rev 1.0)
         (date 2022-06-05)
         (source DuoDiskAdapter.sch)
-        (comment (number 1) (value ""))
-        (comment (number 2) (value ""))
+        (comment (number 1) (value "CC-BY-SA 4.0"))
+        (comment (number 2) (value "FloppyEmu-DuoDisk-Adapter for the Apple II"))
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
   (components
