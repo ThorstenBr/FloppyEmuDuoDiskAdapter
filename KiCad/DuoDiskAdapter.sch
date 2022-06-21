@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DuoDisk-FloppyEmu Adapter"
-Date "2022-06-05"
-Rev "1.0"
+Date "2022-06-21"
+Rev "1.1"
 Comp "Thorsten Brehm"
 Comment1 "CC-BY-SA 4.0"
 Comment2 "FloppyEmu-DuoDisk-Adapter for the Apple II"
@@ -97,7 +97,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 4750 2100 2250
 NoConn ~ 2350 4850
-NoConn ~ 2350 4950
 NoConn ~ 2350 5050
 NoConn ~ 2350 5150
 NoConn ~ 2350 5250
@@ -473,7 +472,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 2750 4300 2750
 Wire Wire Line
-	1550 2850 4300 2850
+	1550 2850 2050 2850
 Wire Wire Line
 	1550 2950 4300 2950
 Wire Wire Line
@@ -518,4 +517,13 @@ Wire Wire Line
 	3400 1950 3400 1700
 Wire Notes Line
 	850  1150 4900 1150
+Wire Wire Line
+	2350 4950 2050 4950
+Wire Wire Line
+	2050 4950 2050 2850
+Connection ~ 2050 2850
+Wire Wire Line
+	2050 2850 4300 2850
+Text Label 2100 4950 0    50   ~ 0
+_+5V
 $EndSCHEMATC
