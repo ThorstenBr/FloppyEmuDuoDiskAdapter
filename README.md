@@ -1,4 +1,4 @@
-# FloppyEmu Disk II Enclosure
+# FloppyEmu DuoDisk Adapter
 This project contains a KiCad PCB to create a FloppyEmu-DuoDisk Adapter for the [Big Mess of Wires - FloppyEmu](https://www.bigmessowires.com/floppy-emu/) - an SD-card based disk drive emulator for the Apple II computer.
 The adapter allows to connect the FloppyEmu to the DuoDisk cable and switch each drive separately (select each of the two DuoDisk drives or each of the two emulated FloppyEmu drives).
 
@@ -31,6 +31,20 @@ Parts list for the completed PCB:
 * optional: 1x Toggle Switch 2xON/ON (cheap Goobay KNX-2)
 
 ![DuoDiskAdapter](/resources/CompletedPcb.jpg)
+
+## Installation
+Make sure the Apple II is switched off.
+
+*DO NOT CONNECT THE ADAPTER OR THE FLOPPY EMU WHILE YOUR MACHINE IS POWERED!*
+
+* Disconnect the DB-25 cable from the DuoDisk.
+* Instead of the DB-25 cable, plug the completed PCB into the rear of the DuoDisk.
+* Connect the DB-25 cable to the adapter.
+* Eventually connect FloppyEmu's ribbon cable to the adapter.
+
+The adapter will be conveniently placed just above the Apple II's main power switch:
+
+![DuoDiskAdapter](/resources/DuoDiskPlugged2.jpg)
 
 ## Schematics and KiCad Project
 The [KiCad](/KiCad/) folder contains the schematics and PCB project files, if you wished to adapt the design.
