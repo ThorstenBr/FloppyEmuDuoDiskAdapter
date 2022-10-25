@@ -287,7 +287,7 @@
       (node (ref SW1) (pin 3))
       (node (ref SW3) (pin 3))
       (node (ref SW3) (pin 4)))
-    (net (code 10) (name /GND4)
+    (net (code 10) (name /~A2Emulation)
       (node (ref J2) (pin 21))
       (node (ref J1) (pin 21)))
     (net (code 11) (name /GND3)

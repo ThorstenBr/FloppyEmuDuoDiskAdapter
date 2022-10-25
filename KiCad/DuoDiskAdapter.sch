@@ -402,7 +402,7 @@ Wire Wire Line
 Text Label 1650 3950 0    50   ~ 0
 GND3
 Text Label 1650 2550 0    50   ~ 0
-GND4
+~A2Emulation
 Connection ~ 2150 4200
 Wire Wire Line
 	2150 4200 2150 3850
