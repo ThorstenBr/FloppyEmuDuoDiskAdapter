@@ -2,3 +2,7 @@
 *.kicad_pcb-bak
 */OLD/*
 fp-info-cache
+KiCad/Gerber/*
+KiCad/DuoDiskAdapter-backups/*
+git_access
+github_*
